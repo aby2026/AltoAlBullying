@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página no encontrada - StopBullying</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #2d3e7f 0%, #1e4d8b 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        
+        .container-404 {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        a {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff6b35, #ff8555);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+        }
+        
+        a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255, 107, 53, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <div class="container-404">
+        <h1>404</h1>
+        <p>¡Oops! La página que buscas no existe.</p>
+        <a href="/">Volver al inicio</a>
+    </div>
+    
+    <script>
+        // Redirigir URLs con .html a sin extensión
+        if (window.location.pathname.endsWith('.html')) {
+            window.location.pathname = window.location.pathname.replace('.html', '');
+        }
+    </script>
+</body>
+</html>

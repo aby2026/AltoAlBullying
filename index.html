@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto al bullying</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-shield-alt"></i>
+                <span>Alto al bullying</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#que-es">¿Qué es?</a></li>
+                <li><a href="#tipos">Tipos</a></li>
+                <li><a href="#consejos">Consejos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Juntos contra el bullying</h1>
+            <p class="hero-subtitle">Educación, prevención y apoyo para un ambiente escolar seguro</p>
+            <button class="cta-button">Aprende más</button>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <section id="que-es" class="section">
+        <div class="container">
+            <h2 class="section-title">¿Qué es el Bullying?</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <div class="card-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Definición</h3>
+                    <p>El bullying es el acoso reiterado a una persona por parte de uno o varios individuos con el objetivo de intimidar, excluir o dañar su autoestima.</p>
+                </div>
+                <div class="content-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Participantes</h3>
+                    <p>Involucra a acosadores, víctimas y espectadores. Todos tenemos un papel importante en detener el acoso escolar.</p>
+                </div>
+                <div class="content-card">
+                    <div class="card-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Repetición</h3>
+                    <p>A diferencia de conflictos puntuales, el bullying es un patrón de comportamiento repetido y persistente en el tiempo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tipos" class="section section-alt">
+        <div class="container">
+            <h2 class="section-titleB">Tipos de Bullying</h2>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="fisico">Físico</button>
+                <button class="tab-btn" data-tab="verbal">Verbal</button>
+                <button class="tab-btn" data-tab="social">Social</button>
+                <button class="tab-btn" data-tab="cibernetico">Cibernético</button>
+            </div>
+            
+            <div class="tab-content">
+                <div id="fisico" class="tab-pane active">
+                    <div class="tab-info">
+                        <img src="img/BullyingFisico.jpg" alt="Bullying Físico">
+                        <div>
+                            <h3>Bullying Físico</h3>
+                            <p>Incluye golpes, empujones, daño de propiedades y cualquier contacto físico que cause daño. Es el tipo más evidente pero también el más fácil de detectar.</p>
+                            <ul class="bullet-list">
+                                <li>Golpes y empujones</li>
+                                <li>Robo de pertenencias</li>
+                                <li>Daño a la propiedad</li>
+                                <li>Gestos intimidantes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="verbal" class="tab-pane">
+                    <div class="tab-info">
+                        <img src="img/BullyingVerbal.webp" alt="Bullying Verbal">
+                        <div>
+                            <h3>Bullying Verbal</h3>
+                            <p>Consiste en insultos, burlas, críticas constantes y humillación. Es más difícil de detectar pero genera daño psicológico considerable.</p>
+                            <ul class="bullet-list">
+                                <li>Insultos y groserías</li>
+                                <li>Burlas permanentes</li>
+                                <li>Críticas hirientes</li>
+                                <li>Amenazas verbales</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="social" class="tab-pane">
+                    <div class="tab-info">
+                        <img src="img/BullyingSocial.webp" alt="Bullying Social">
+                        <div>
+                            <h3>Bullying Social</h3>
+                            <p>Implica exclusión deliberada, rumores y daño a la reputación social. Afecta profundamente la autoestima y el sentido de pertenencia.</p>
+                            <ul class="bullet-list">
+                                <li>Exclusión de grupos</li>
+                                <li>Propagación de rumores</li>
+                                <li>Aislamiento deliberado</li>
+                                <li>Rechazo público</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="cibernetico" class="tab-pane">
+                    <div class="tab-info">
+                        <img src="img/Ciberacoso.jpg" alt="Ciberacoso">
+                        <div>
+                            <h3>Ciberacoso (Cyberbullying)</h3>
+                            <p>Acoso a través de internet, redes sociales y dispositivos digitales. Es persistente, llega a millones y deja registros permanentes.</p>
+                            <ul class="bullet-list">
+                                <li>Mensajes ofensivos</li>
+                                <li>Publicaciones hirientes</li>
+                                <li>Suplantación de identidad</li>
+                                <li>Difusión de fotos sin consentimiento</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Señales de Alerta</h2>
+            <div class="signals-grid">
+                <div class="signal-card">
+                    <h3><i class="fas fa-face-sad-tear"></i> Cambios Emocionales</h3>
+                    <p>Tristeza persistente, ansiedad, baja autoestima, depresión o cambios bruscos en el estado de ánimo.</p>
+                </div>
+                <div class="signal-card">
+                    <h3><i class="fas fa-bed"></i> Cambios en Hábitos</h3>
+                    <p>Problemas de sueño, cambios en el apetito, fatiga constante o falta de energía.</p>
+                </div>
+                <div class="signal-card">
+                    <h3><i class="fas fa-book"></i> Académico</h3>
+                    <p>Disminución del rendimiento escolar, falta de concentración, pérdida de interés en la educación.</p>
+                </div>
+                <div class="signal-card">
+                    <h3><i class="fas fa-users-slash"></i> Aislamiento Social</h3>
+                    <p>Evitar interacciones sociales, rechazo a salir, pérdida de amistades o aislamiento voluntario.</p>
+                </div>
+                <div class="signal-card">
+                    <h3><i class="fas fa-exclamation"></i> Comportamiento</h3>
+                    <p>Silencio defensivo, evasión de preguntas, regreso a casa con ropa rasgada o marcas.</p>
+                </div>
+                <div class="signal-card">
+                    <h3><i class="fas fa-phone"></i> Tecnología</h3>
+                    <p>Uso excesivo de redes sociales, comportamiento evasivo con dispositivos o miedo a notificaciones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="consejos" class="section section-alt">
+        <div class="container">
+            <h2 class="section-titleB">Cómo Prevenir y Actuar</h2>
+            <div class="advice-container">
+                <div class="advice-column">
+                    <h3><i class="fas fa-shield"></i> Para Padres y Educadores</h3>
+                    <ul class="advice-list">
+                        <li>Mantén diálogo abierto y sin juzgamiento con los menores</li>
+                        <li>Educa sobre empatía y respeto desde temprana edad</li>
+                        <li>Establece reglas claras sobre el uso de internet</li>
+                        <li>Monitorea el comportamiento en redes sociales</li>
+                        <li>Reporta casos de acoso a las autoridades escolares</li>
+                        <li>Busca apoyo profesional cuando sea necesario</li>
+                    </ul>
+                </div>
+                <div class="advice-column">
+                    <h3><i class="fas fa-heart"></i> Para Víctimas</h3>
+                    <ul class="advice-list">
+                        <li>No es tu culpa - el acoso no es responsabilidad tuya</li>
+                        <li>Habla con un adulto de confianza sobre lo que está pasando</li>
+                        <li>Guarda evidencia de acoso (mensajes, fotos, capturas)</li>
+                        <li>Evita estar solo en lugares vulnerables</li>
+                        <li>Mantén contacto con amigos que te apoyen</li>
+                        <li>Cuida tu salud mental buscando ayuda profesional</li>
+                    </ul>
+                </div>
+                <div class="advice-column">
+                    <h3><i class="fas fa-handshake"></i> Para Espectadores</h3>
+                    <ul class="advice-list">
+                        <li>No participes ni alimentes el acoso con risas o comentarios</li>
+                        <li>Atrévete a defender a la víctima de forma segura</li>
+                        <li>Reporta el acoso a un adulto de confianza</li>
+                        <li>Ofrece apoyo y amistad a la víctima</li>
+                        <li>Crea conciencia entre tus compañeros</li>
+                        <li>Tu silencio no es neutral - tienes poder para cambiar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Recursos Útiles</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Líneas de Ayuda</h3>
+                    <p>Contacta con profesionales que pueden ayudarte 24/7</p>
+                    <a href="https://www.google.com/search?q=lineas+de+ayuda+contra+el+bullying+Peru" class="resource-link">Ver números →</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Material Educativo</h3>
+                    <p>Descarga guías y recursos para educadores</p>
+                    <a href="https://www.google.com/search?q=Material+Educativo+contra+el+bullying+Peru" class="resource-link">Ver material →</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Apoyo Psicológico</h3>
+                    <p>Encuentra profesionales especializados en tu área</p>
+                    <a href="https://www.gob.pe/62013-reportar-casos-de-violencia-escolar-en-la-plataforma-siseve-del-minedu" class="resource-link">Ver información →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section section-alt">
+        <div class="container contact-center">
+            <h2 class="section-titleB">¿Necesitas Ayuda?</h2>
+            <p class="contact-subtitle">Ponte en contacto con nosotros. Tu mensaje es importante.</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Tu mensaje..." rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Alto al bullying</h4>
+                    <p>Trabajando juntos para crear un mundo sin acoso.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#que-es">¿Qué es?</a></li>
+                        <li><a href="#tipos">Tipos</a></li>
+                        <li><a href="#consejos">Consejos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alto al bullying - Aby</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
