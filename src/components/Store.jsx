@@ -10,7 +10,7 @@ export default function Store() {
       icon: 'fa-book',
       title: 'Libro: "Conciencia Bullying"',
       description: 'Guía completa sobre prevención y concientización del acoso escolar. Perfecto para padres y educadores.',
-      price: 89.99,
+      price: 25,
       image: '📚'
     },
     {
@@ -18,7 +18,7 @@ export default function Store() {
       icon: 'fa-puzzle-piece',
       title: 'Quiz Interactivo de Bullying',
       description: 'Test dinámico para aprender sobre tipos de bullying, señales de alerta y cómo intervenir correctamente.',
-      price: 35.99,
+      price: 20,
       image: '🧩'
     },
     {
@@ -26,7 +26,7 @@ export default function Store() {
       icon: 'fa-video',
       title: 'Curso Video: Prevención y Apoyo',
       description: '5 módulos en video sobre cómo identificar, prevenir y actuar ante situaciones de bullying.',
-      price: 149.99,
+      price: 35,
       image: '🎥'
     },
     {
@@ -34,7 +34,7 @@ export default function Store() {
       icon: 'fa-lightbulb',
       title: 'Guía de Actividades Escolares',
       description: '30 actividades lúdicas y educativas para implementar en el aula y fomentar la empatía.',
-      price: 69.99,
+      price: 40,
       image: '💡'
     },
     {
@@ -42,7 +42,7 @@ export default function Store() {
       icon: 'fa-heart',
       title: 'Kit de Recursos para Víctimas',
       description: 'Materiales de apoyo psicológico, ejercicios de autoestima y cartas de esperanza para víctimas de bullying.',
-      price: 54.99,
+      price: 35,
       image: '❤️'
     },
     {
@@ -50,7 +50,7 @@ export default function Store() {
       icon: 'fa-handshake',
       title: 'Plan Estratégico Anti-Bullying',
       description: 'Documento comprensivo con estrategias para implementar en instituciones educativas y comunidades.',
-      price: 109.99,
+      price: 40,
       image: '🤝'
     }
   ]
