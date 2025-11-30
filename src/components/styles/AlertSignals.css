@@ -22,17 +22,17 @@
     align-items: center;
     gap: 12px;
     margin-bottom: 15px;
-    color: white;
+    color: #000;
     font-weight: 700;
 }
 
 .signal-card h3 i {
-    color: white;
+    color: #000;
     font-size: 1.3rem;
 }
 
 .signal-card p {
-    color: white;
+    color: #000;
     font-weight: 700;
     line-height: 1.8;
 }

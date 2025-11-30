@@ -6,6 +6,7 @@ import BullyingTypes from './components/BullyingTypes'
 import AlertSignals from './components/AlertSignals'
 import Advice from './components/Advice'
 import Resources from './components/Resources'
+import Store from './components/Store'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
@@ -21,6 +22,7 @@ function App() {
         <AlertSignals />
         <Advice />
         <Resources />
+        <Store />
         <Contact />
       </main>
       <Footer />
