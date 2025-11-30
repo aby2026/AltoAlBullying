@@ -16,8 +16,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="nav-brand">
-          <i className="fas fa-shield-alt"></i>
-          <span>StopBullying</span>
+          <span>Rompe el silencio ¡NO MÁS BULLYING!</span>
         </div>
         <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>
           <li><a onClick={() => scrollToSection('inicio')}>Inicio</a></li>

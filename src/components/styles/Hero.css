@@ -1,5 +1,5 @@
 .hero {
-    background: linear-gradient(135deg, #2d3e7f 0%, #1e4d8b 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, #1e4d8b 100%);
     color: white;
     padding: 120px 20px;
     text-align: center;
@@ -59,6 +59,15 @@
     max-width: 800px;
 }
 
+.hero-logo {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+    animation: slideInDown 0.8s ease-out;
+}
+
 .hero-title {
     font-size: 3.5rem;
     margin-bottom: 20px;
@@ -76,7 +85,7 @@
 }
 
 .cta-button {
-    background: linear-gradient(135deg, #ff6b35, #ff8555);
+    background: linear-gradient(135deg, var(--accent-color), #fb923c);
     color: white;
     border: none;
     padding: 15px 40px;
@@ -85,7 +94,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
     font-weight: 700;
-    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+    box-shadow: 0 4px 15px rgba(249, 115, 22, 0.4);
     animation: slideInUp 0.8s ease-out 0.4s both;
     position: relative;
     overflow: hidden;
@@ -93,7 +102,7 @@
 
 .cta-button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.6);
+    box-shadow: 0 6px 20px rgba(249, 115, 22, 0.6);
 }
 
 .cta-button:active {

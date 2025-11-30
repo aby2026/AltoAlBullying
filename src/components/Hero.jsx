@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section id="inicio" className="hero">
       <div className="hero-content">
-        <h1 className="hero-title">Juntos contra el bullying</h1>
+        <img src="/AltoAlBullying/img/Logo.png" alt="Logo" className="hero-logo" />
         <p className="hero-subtitle">Educación, prevención y apoyo para un ambiente escolar seguro</p>
         <button 
           className="cta-button"

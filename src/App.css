@@ -8,13 +8,12 @@
     flex: 1;
 }
 
-/* Scroll indicator */
 .scroll-indicator {
     position: fixed;
     top: 0;
     left: 0;
     height: 4px;
-    background: linear-gradient(90deg, #2d3e7f, #ff6b35);
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
     z-index: 999;
     transition: width 0.1s ease;
 }
