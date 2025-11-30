@@ -7,25 +7,25 @@ export default function BullyingTypes() {
   const types = {
     fisico: {
       title: 'Bullying Físico',
-      image: '/AltoAlBullying/img/BullyingFisico.jpg',
+      image: '/img/BullyingFisico.jpg',
       description: 'Incluye golpes, empujones, daño de propiedades y cualquier contacto físico que cause daño. Es el tipo más evidente pero también el más fácil de detectar.',
       items: ['Golpes y empujones', 'Robo de pertenencias', 'Daño a la propiedad', 'Gestos intimidantes']
     },
     verbal: {
       title: 'Bullying Verbal',
-      image: '/AltoAlBullying/img/BullyingVerbal.webp',
+      image: '/img/BullyingVerbal.webp',
       description: 'Consiste en insultos, burlas, críticas constantes y humillación. Es más difícil de detectar pero genera daño psicológico considerable.',
       items: ['Insultos y groserías', 'Burlas permanentes', 'Críticas hirientes', 'Amenazas verbales']
     },
     social: {
       title: 'Bullying Social',
-      image: '/AltoAlBullying/img/BullyingSocial.webp',
+      image: '/img/BullyingSocial.webp',
       description: 'Implica exclusión deliberada, rumores y daño a la reputación social. Afecta profundamente la autoestima y el sentido de pertenencia.',
       items: ['Exclusión de grupos', 'Propagación de rumores', 'Aislamiento deliberado', 'Rechazo público']
     },
     cibernetico: {
       title: 'Ciberacoso (Cyberbullying)',
-      image: '/AltoAlBullying/img/Ciberacoso.jpg',
+      image: '/img/Ciberacoso.jpg',
       description: 'Acoso a través de internet, redes sociales y dispositivos digitales. Es persistente, llega a millones y deja registros permanentes.',
       items: ['Mensajes ofensivos', 'Publicaciones hirientes', 'Suplantación de identidad', 'Difusión de fotos sin consentimiento']
     }
