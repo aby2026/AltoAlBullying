@@ -23,6 +23,7 @@ export default function Navbar() {
           <li><a onClick={() => scrollToSection('que-es')}>¿Qué es?</a></li>
           <li><a onClick={() => scrollToSection('tipos')}>Tipos</a></li>
           <li><a onClick={() => scrollToSection('consejos')}>Consejos</a></li>
+          <li><a onClick={() => scrollToSection('videos')}>Videos</a></li>
           <li><a onClick={() => scrollToSection('tienda')}>Tienda</a></li>
           <li><a onClick={() => scrollToSection('contacto')}>Contacto</a></li>
         </ul>
